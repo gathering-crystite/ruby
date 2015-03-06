@@ -3,7 +3,7 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers)
   puts "You have #{cheese_count} cheeses!"
   puts "You have #{boxes_of_crackers} boxes of crackers!"
   puts "Man that's enough for a party!"
-  puts "Get a blanket. \n"
+  puts "Get a blanket.\n"
 end
 # only print party line if there's enough food.
 # ask the user for the numbers of cheese and crackers
@@ -15,7 +15,7 @@ cheese_and_crackers(20, 30)
 
 puts "PR, we can use variables from our script:"
 amount_of_cheese = 10
-amount_of crackers = 50
+amount_of_crackers = 50
 
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
