@@ -1,4 +1,3 @@
-#ex12.rb
 print "Give me a number: "
 number = gets.chomp.to_i
 
@@ -11,4 +10,3 @@ number = another.to_i
 
 smaller = number / 100
 puts "A smaller number is #{smaller}."
-

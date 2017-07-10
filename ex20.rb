@@ -1,4 +1,3 @@
-# ex20.rb
 input_file = ARGV.first
 
 def print_all(f)

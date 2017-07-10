@@ -1,28 +1,27 @@
-# ex18.rb
 # this one is like your scripts with ARGV
 def print_two(*args)
-  arg1, arg2, = args
-  puts "arg1: #{arg1}, arg2: #{arg2}"
+	arg1, arg2, = args
+	puts "arg1: #{arg1}, arg2: #{arg2}"
 end
 
-# ok, that *args is actually pointless, we can just do this
+# ok, that *args is actually pointless, we cna just do this
 def print_two_again(arg1, arg2)
-  puts "arg1: #{arg1}, arg2: #{arg2}"
+	puts "arg1: #{arg1}, arg2: #{arg2}"
 end
 
-# this one just takes one argument
+# this just takes one arguemnt
 def print_one(arg1)
-  arg1
-  puts "arg1: #{arg1}"
+	puts "arg1: #{arg1}"
 end
 
 # this one takes no arguments
 def print_none()
-  puts "I got nothin'."
+	puts "Nothing here."
 end
 
-
-print_two("Zed","Shaw")
-print_two_again("Zed","Shaw")
+print_two("Scott", "Icefelt")
+print_two_again("Scott", "Icefelt")
 print_one("First!")
 print_none()
+
+

@@ -1,5 +1,3 @@
-# ex15.rb
-
 filename = ARGV.first
 
 txt = open(filename)
